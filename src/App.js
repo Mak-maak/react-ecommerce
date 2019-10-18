@@ -13,10 +13,10 @@ const HatsPage = () => (
 function App() {
   return (
     <div>
-      <switch>
+      <Switch>
         <Route exact path='/' component={HomePage} />
         <Route exact path='/hats' component={HatsPage} />
-      </switch>
+      </Switch>
     </div>
   );
 }
